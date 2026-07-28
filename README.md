@@ -18,7 +18,7 @@ This project ships in **two editions**:
 ## 👋 Welcome
 
 <!-- Replace the src below with the CDN URL GitHub generates after you drag-and-drop Welcome.mp4 into the README editor on GitHub.com (see the Demo Videos section for the exact steps) -->
-<video src="[PASTE_GITHUB_GENERATED_WELCOME_VIDEO_URL_HERE](https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/Welcome.mp4)" controls width="600"></video>
+<video src="https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/Welcome.mp4" controls width="600"></video>
 
 *A short introduction to the SUPERNOVA EXTENDER project.*
 
