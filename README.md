@@ -1,4 +1,4 @@
-﻿# 📡 SUPERNOVA EXTENDER
+# 📡 SUPERNOVA EXTENDER
 
 **A custom ESP8266 Wi-Fi Extender / Repeater firmware with a built-in mobile-friendly web dashboard, internet sharing (NAT), MAC-based firewall, and live network monitoring.**
 
@@ -17,12 +17,9 @@ This project ships in **two editions**:
 
 ## 👋 Welcome
 
-<!-- Replace the src below with the CDN URL GitHub generates after you drag-and-drop Welcome.mp4 into the README editor on GitHub.com (see the Demo Videos section for the exact steps) -->
-<video src="https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/blob/99033c086e0033412160d2f8b36bb6b1458b16d4/Welcome.mp4" controls width="600"></video>
+<video src="https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/Welcome.mp4" controls width="600"></video>
 
 *A short introduction to the SUPERNOVA EXTENDER project.*
-
-> Place `Welcome.mp4` inside a `media/` folder at the repo root, then follow the steps in [Demo Videos](#demo-videos) to get a working play button on GitHub's main page.
 
 ---
 
@@ -32,51 +29,31 @@ This project ships in **two editions**:
 
 | Login Page | Main Dashboard |
 |---|---|
-| ![STAR Login Screen](screenshots/Screenshot_Star_Login.jpg) | ![STAR Main Dashboard](screenshots/Screenshot_Star_Mainpage.jpg) |
+| ![STAR Login Screen](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/Screenshot_Star_Login.jpg) | ![STAR Main Dashboard](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/Screenshot_Star_Mainpage.jpg) |
 
 ### 💡 LIGHT Edition
 
 | Login Page | Main Dashboard |
 |---|---|
-| ![LIGHT Login Screen](screenshots/Screenshot_Light_Login.jpg) | ![LIGHT Main Dashboard](screenshots/Screenshot_Light_Mainpage.jpg) |
-
-> Place all four screenshot files inside a `screenshots/` folder at the repo root, using the exact filenames shown above, so they render correctly.
+| ![LIGHT Login Screen](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/Screenshot_Light_Login.jpg) | ![LIGHT Main Dashboard](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/Screenshot_Light_Mainpage.jpg) |
 
 ---
 
 ## 🎥 Demo Videos
 
-> **Important:** GitHub strips `<video>` tags that point to a local/relative file path inside your repo — a video embedded that way will **not** play. To get a working inline player, follow these steps *after* pushing this repo to GitHub, once for **each** video file (`Welcome.mp4`, `SUPERNOVA_EXTENDER_STAR_DEMO.mp4`, `SUPERNOVA_EXTENDER_Light_DEMO.mp4`):
->
-> 1. On GitHub.com, open `README.md` and click the **pencil (Edit)** icon.
-> 2. **Drag and drop** the `.mp4` file directly into the edit text box (not the "Add file" button).
-> 3. GitHub automatically uploads it to its own CDN and inserts a URL that looks like:
-> ```
-> https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/Welcome.mp4
-> ```
-> 4. Replace the matching placeholder `<video src="...">` line in this README with that generated URL, then **Commit changes**. Only then will the video actually render and play on the repo's main page.
-
 ### ⭐ STAR Edition Demo
 
-<!-- Replace the src below with the CDN URL GitHub generates in step 3 above -->
-<video src="https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/blob/99033c086e0033412160d2f8b36bb6b1458b16d4/Welcome.mp4" controls width="600"></video>
+<video src="https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/SUPERNOVA_EXTENDER_STAR_DEMO.mp4" controls width="600"></video>
 
-**Fallback (works immediately, no extra steps):**
-```markdown
-[![Watch the STAR demo](/Screenshot_Star_Mainpage.jpg)](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/SUPERNOVA_EXTENDER_STAR_DEMO.mp4)
-```
+**Fallback Link (Click to watch):**
+[![Watch the STAR demo](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/Screenshot_Star_Mainpage.jpg)](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/SUPERNOVA_EXTENDER_STAR_DEMO.mp4)
 
 ### 💡 LIGHT Edition Demo
 
-<!-- Replace the src below with the CDN URL GitHub generates in step 3 above -->
-<video src="PASTE_GITHUB_GENERATED_LIGHT_VIDEO_URL_HERE" controls width="600"></video>
+<video src="https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/SUPERNOVA_EXTENDER_Light_DEMO.mp4" controls width="600"></video>
 
-**Fallback (works immediately, no extra steps):**
-```markdown
-[![Watch the LIGHT demo](/Screenshot_Light_Mainpage.jpg)](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/SUPERNOVA_EXTENDER_Light_DEMO.mp4)
-```
-
-*(Replace `<username>` and `<repo>` with your actual GitHub username and repository name in all fallback links above.)*
+**Fallback Link (Click to watch):**
+[![Watch the LIGHT demo](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/Screenshot_Light_Mainpage.jpg)](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/SUPERNOVA_EXTENDER_Light_DEMO.mp4)
 
 ---
 
@@ -122,34 +99,9 @@ This project ships in **two editions**:
 
 ---
 
-## 📁 Repository Structure
-
-```
-SUPERNOVA_EXTENDER/
-├── bin/
-│   ├── SUPERNOVA_EXTENDER_STAR_1MB.bin
-│   ├── SUPERNOVA_EXTENDER_STAR_4MB.bin
-│   ├── SUPERNOVA_EXTENDER_LIGHT_1MB.bin
-│   └── SUPERNOVA_EXTENDER_LIGHT_4MB.bin
-├── screenshots/
-│   ├── Screenshot_Star_Login.jpg
-│   ├── Screenshot_Star_Mainpage.jpg
-│   ├── Screenshot_Light_Login.jpg
-│   └── Screenshot_Light_Mainpage.jpg
-├── media/
-│   ├── Welcome.mp4
-│   ├── SUPERNOVA_EXTENDER_STAR_DEMO.mp4
-│   └── SUPERNOVA_EXTENDER_Light_DEMO.mp4
-└── README.md
-```
-
-> This repository distributes **ready-to-flash `.bin` files only** — no `.ino` source code is published. Rename your existing `.bin` files to match the names above (or update the links in the [Downloads](#downloads) section below to match your actual filenames) before uploading.
-
----
-
 ## 📥 Downloads
 
-The compiled firmware binaries are attached to the **[Releases](../../releases)** page of this repository (recommended), and/or available directly in the [`bin/`](bin/) folder above.
+The compiled firmware binaries are attached to the **[Releases](../../releases)** page of this repository.
 
 | Edition | Flash Size | File |
 |---|---|---|
@@ -179,137 +131,5 @@ Each edition (STAR, LIGHT) is provided as two separate `.bin` files — one buil
 
 1. Put the board into bootloader mode (automatic over USB for NodeMCU/D1 Mini; hold GPIO0 low on power-up for ESP-01).
 2. Flash the matching `.bin` using `esptool.py`, Arduino IDE Upload, or a GUI flasher (NodeMCU PyFlasher / ESPHome Flasher). The **Flash Address is `0x00000000`** (the very start of flash) since this is a full, standalone firmware image:
-   ```
+   ```bash
    esptool.py --port COM5 --baud 115200 write_flash 0x00000000 firmware.bin
-   ```
-   *(`0x0` and `0x00000000` refer to the exact same address — the leading zeros are optional — so either form works identically with esptool.)*
-3. The device boots, creates its own Wi-Fi AP, and starts the web dashboard automatically.
-
-**Flash address reference table (for GUI flashers such as NodeMCU PyFlasher / ESPHome Flasher):**
-
-| Field | Value |
-|---|---|
-| Flash Address | `0x00000000` |
-| File | The compiled `firmware.bin` (matching your board's flash size — 1 MB or 4 MB) |
-| Flash Mode | `dout` (default for most ESP8266 boards) — use `dio`/`qio` only if your board specifically requires it |
-| Flash Frequency | `40MHz` (default) |
-
-> **Warning:** Only flash the 1 MB `.bin` to a genuine 1 MB chip, and the 4 MB `.bin` to a 4 MB chip. Flashing the wrong image can brick the boot process until re-flashed correctly.
-
----
-
-## 🏁 First-Time Setup
-
-1. Power on the device — it broadcasts **`SUPERNOVA_EXTENDER`** (default password `12345678`).
-2. Connect your phone/PC to that network.
-3. Browse to **`http://10.10.10.1`**.
-4. Log in with the default admin credentials below, then go straight to **Settings** and change everything.
-
-| Setting | Default |
-|---|---|
-| AP Name | `SUPERNOVA_EXTENDER` |
-| AP Password | `12345678` |
-| Device IP | `10.10.10.1` |
-| Admin Username | `Admin` |
-| Admin Password | `Password` |
-
----
-
-## 🖥 Dashboard Guide
-
-| Button | What it does |
-|---|---|
-| ⚙ **Settings** | Change AP name/password/mode, device IP, admin credentials, or factory-reset |
-| 📊 **Status** | Live uptime, signal, connected devices, memory, NTP time |
-| ✍ **Manual** | Manually enter a router SSID/password to connect (async in STAR; blocking for up to 15s in LIGHT) |
-| 🔍 **Scan** | Lists nearby Wi-Fi networks, one-tap connect |
-| 🛡 **Firewall** (STAR) / 🚫 **Block** (LIGHT) | Block/unblock devices by MAC address (STAR adds a live rule-count summary) |
-| 🎨 **Theme** / 🔊 **Sound** | Cosmetic UI preferences |
-| 📞 **Contact** | Developer contact link |
-| 🚪 **Logout** | Ends the session |
-
-**Physical controls (both editions):**
-- **Hard Reset button (GPIO0):** hold 5 seconds to wipe all settings and restart.
-- **Status LED:** Solid ON = connected; Fast blink = connecting; Slow blink = standalone AP; Rapid strobe = reset button held.
-
-For the full step-by-step walkthrough of every feature, see the detailed **User Manual (PDF)** included in this repo/release.
-
----
-
-## 🔌 Web API Reference
-
-### ⭐ STAR Edition
-
-| Endpoint | Purpose |
-|---|---|
-| `/` | Serves the dashboard |
-| `/api/logincheck?user=&pass=` | Admin login |
-| `/api/saveadmin?user=&pass=` | Update admin credentials |
-| `/api/saveap?ap=&pw=&mode=` | Update AP name/password/mode |
-| `/api/saveip?ip=` | Update device IP (restarts) |
-| `/api/settings` | Get current AP settings (JSON) |
-| `/api/scan` | Scan nearby networks |
-| `/api/connect?ssid=&pass=` | Start async router connection |
-| `/api/connectStatus` | Poll connection result |
-| `/api/status` | Live device/network status |
-| `/api/reset` | Factory reset |
-| `/api/firewall/data` | Get MAC block-list |
-| `/api/firewall/action?type=mac&act=block\|unblock&val=` | Block/unblock a MAC |
-| `/api/firewall/status` | Firewall summary |
-
-### 💡 LIGHT Edition
-
-| Endpoint | Purpose |
-|---|---|
-| `/` | Serves the dashboard |
-| `/api/logincheck?user=&pass=` | Admin login |
-| `/api/saveadmin?user=&pass=` | Update admin credentials |
-| `/api/saveap?ap=&pw=&mode=` | Update AP name/password/mode |
-| `/api/saveip?ip=` | Update device IP (restarts) |
-| `/api/scan` | Scan nearby networks |
-| `/api/connect?ssid=&pass=` | Connect to a router (blocks for up to 15s until success/failure) |
-| `/api/status` | Live device/network status |
-| `/api/reset` | Factory reset |
-| `/api/blocklist` | Get MAC block-list |
-| `/api/block?mac=` | Block a MAC address |
-| `/api/unblock?mac=` | Unblock a MAC address |
-
-> Note: the LIGHT edition has no `/api/settings` (current-values fetch) or `/api/connectStatus` (async polling) endpoints — these are STAR-only.
-
-All endpoints except login require a valid session cookie.
-
----
-
-## 🔒 Security Recommendations
-
-- 🔑 Change the default admin and AP passwords immediately after setup.
-- 🔓 Avoid Open/Public AP mode unless intentionally hosting a free network.
-- 🛡 Use the Firewall panel to remove unrecognized devices.
-- 🔘 Keep physical access to the Flash button restricted (5-second hold = full reset).
-
----
-
-## 🛠 Troubleshooting
-
-| Symptom | Fix |
-|---|---|
-| Can't reach `10.10.10.1` | Make sure you're connected to the `SUPERNOVA_EXTENDER` Wi-Fi, not another network |
-| LED stuck on fast blink | Wrong router password or out of range — re-enter via Manual Connect or Scan |
-| No internet on extended network | Check Status panel — NAT only activates once the router link shows connected |
-| Forgot admin password | Hold the Flash/Boot button 5 seconds to factory-reset |
-| Device unresponsive after flashing | Re-flash with the `.bin` matching your board's actual flash size |
-
----
-
-## 🤝 Contributing
-
-Issues and pull requests are welcome. Please open an issue describing the board/flash size and edition (STAR or LIGHT) you're using along with any bug reports.
-
-## 📄 License
-
-Add your preferred license here (e.g. MIT) — no license is currently declared in this repository.
-
-## 👤 Credits
-
-Developed by **SUDHEESH.S**
-📞 Contact: [Facebook](https://www.facebook.com/hitech.supernova)
