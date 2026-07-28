@@ -52,28 +52,28 @@ This project ships in **two editions**:
 > 2. **Drag and drop** the `.mp4` file directly into the edit text box (not the "Add file" button).
 > 3. GitHub automatically uploads it to its own CDN and inserts a URL that looks like:
 > ```
-> https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/Welcome.mp4
+> https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/blob/99033c086e0033412160d2f8b36bb6b1458b16d4/Welcome.mp4
 > ```
 > 4. Replace the matching placeholder `<video src="...">` line in this README with that generated URL, then **Commit changes**. Only then will the video actually render and play on the repo's main page.
 
 ### ⭐ STAR Edition Demo
 
 <!-- Replace the src below with the CDN URL GitHub generates in step 3 above -->
-<video src="PASTE_GITHUB_GENERATED_STAR_VIDEO_URL_HERE" controls width="600"></video>
+<video src="https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/blob/99033c086e0033412160d2f8b36bb6b1458b16d4/SUPERNOVA_EXTENDER_STAR_DEMO.mp4" controls width="600"></video>
 
 **Fallback (works immediately, no extra steps):**
 ```markdown
-[![Watch the STAR demo](/Screenshot_Star_Mainpage.jpg)](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/SUPERNOVA_EXTENDER_STAR_DEMO.mp4)
+[![Watch the STAR demo](/Screenshot_Star_Mainpage.jpg)](https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/blob/99033c086e0033412160d2f8b36bb6b1458b16d4/SUPERNOVA_EXTENDER_STAR_DEMO.mp4)
 ```
 
 ### 💡 LIGHT Edition Demo
 
 <!-- Replace the src below with the CDN URL GitHub generates in step 3 above -->
-<video src="PASTE_GITHUB_GENERATED_LIGHT_VIDEO_URL_HERE" controls width="600"></video>
+<video src="https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/blob/99033c086e0033412160d2f8b36bb6b1458b16d4/SUPERNOVA_EXTENDER_Light_DEMO.mp4" controls width="600"></video>
 
 **Fallback (works immediately, no extra steps):**
 ```markdown
-[![Watch the LIGHT demo](/Screenshot_Light_Mainpage.jpg)](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/SUPERNOVA_EXTENDER_Light_DEMO.mp4)
+[![Watch the LIGHT demo](/Screenshot_Light_Mainpage.jpg)](https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/blob/99033c086e0033412160d2f8b36bb6b1458b16d4/SUPERNOVA_EXTENDER_Light_DEMO.mp4)
 ```
 
 *(Replace `<username>` and `<repo>` with your actual GitHub username and repository name in all fallback links above.)*
