@@ -44,42 +44,6 @@ This project ships in **two editions**:
 
 ---
 
-## 🎥 Demo Videos
-
-> **Important:** GitHub strips `<video>` tags that point to a local/relative file path inside your repo — a video embedded that way will **not** play. To get a working inline player, follow these steps *after* pushing this repo to GitHub, once for **each** video file (`Welcome.mp4`, `SUPERNOVA_EXTENDER_STAR_DEMO.mp4`, `SUPERNOVA_EXTENDER_Light_DEMO.mp4`):
->
-> 1. On GitHub.com, open `README.md` and click the **pencil (Edit)** icon.
-> 2. **Drag and drop** the `.mp4` file directly into the edit text box (not the "Add file" button).
-> 3. GitHub automatically uploads it to its own CDN and inserts a URL that looks like:
-> ```
-> https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/Welcome.mp4
-> ```
-> 4. Replace the matching placeholder `<video src="...">` line in this README with that generated URL, then **Commit changes**. Only then will the video actually render and play on the repo's main page.
-
-### ⭐ STAR Edition Demo
-
-<!-- Replace the src below with the CDN URL GitHub generates in step 3 above -->
-<video src="https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/SUPERNOVA_EXTENDER_STAR_DEMO.mp4)" controls width="600"></video>
-
-**Fallback (works immediately, no extra steps):**
-```markdown
-[![Watch the STAR demo](/Screenshot_Star_Mainpage.jpg)](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/SUPERNOVA_EXTENDER_STAR_DEMO.mp4)
-```
-
-### 💡 LIGHT Edition Demo
-
-<!-- Replace the src below with the CDN URL GitHub generates in step 3 above -->
-<video src="https://github.com/TH4N1O6UV4N/media/SUPERNOVA_EXTENDER/SUPERNOVA_EXTENDER_Light_DEMO.mp4" controls width="600"></video>
-
-**Fallback (works immediately, no extra steps):**
-```markdown
-[![Watch the LIGHT demo](/Screenshot_Light_Mainpage.jpg)](https://raw.githubusercontent.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/main/SUPERNOVA_EXTENDER_Light_DEMO.mp4)
-```
-
-*(Replace `<username>` and `<repo>` with your actual GitHub username and repository name in all fallback links above.)*
-
----
-
 ## ✨ Features
 
 - 🔌 **Wi-Fi Extender / Repeater** — connects to your existing router (STA mode) and rebroadcasts its own access point (AP mode) to extend coverage.
