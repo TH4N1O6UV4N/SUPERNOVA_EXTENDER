@@ -59,7 +59,7 @@ This project ships in **two editions**:
 ### ⭐ STAR Edition Demo
 
 <!-- Replace the src below with the CDN URL GitHub generates in step 3 above -->
-<video src="PASTE_GITHUB_GENERATED_STAR_VIDEO_URL_HERE" controls width="600"></video>
+<video src="https://github.com/TH4N1O6UV4N/SUPERNOVA_EXTENDER/blob/99033c086e0033412160d2f8b36bb6b1458b16d4/Welcome.mp4" controls width="600"></video>
 
 **Fallback (works immediately, no extra steps):**
 ```markdown
