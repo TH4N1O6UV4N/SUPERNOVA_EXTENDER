@@ -32,13 +32,13 @@ This project ships in **two editions**:
 
 | Login Page | Main Dashboard |
 |---|---|
-| ![STAR Login Screen](screenshots/Screenshot_Star_Login.jpg) | ![STAR Main Dashboard](screenshots/Screenshot_Star_Mainpage.jpg) |
+| ![STAR Login Screen](/Screenshot_Star_Login.jpg) | ![STAR Main Dashboard](/Screenshot_Star_Mainpage.jpg) |
 
 ### 💡 LIGHT Edition
 
 | Login Page | Main Dashboard |
 |---|---|
-| ![LIGHT Login Screen](screenshots/Screenshot_Light_Login.jpg) | ![LIGHT Main Dashboard](screenshots/Screenshot_Light_Mainpage.jpg) |
+| ![LIGHT Login Screen](/Screenshot_Light_Login.jpg) | ![LIGHT Main Dashboard](/Screenshot_Light_Mainpage.jpg) |
 
 > Place all four screenshot files inside a `screenshots/` folder at the repo root, using the exact filenames shown above, so they render correctly.
 
