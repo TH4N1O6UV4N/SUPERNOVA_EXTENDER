@@ -17,6 +17,8 @@ This project ships in **two editions**:
 
 ## 👋 Welcome
 
+https://github.com/user-attachments/assets/2b574152-2535-4b3a-a2b5-f581a528ce60
+
 ## 📸 Screenshots
 
 ### ⭐ STAR Edition
